@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Third-party clones / symlinks
+external/
+
+# Runtime data — uploads, generated logs, user files
+data/uploads/
+
+# Backup directories from refactoring work
+src.backup-*
+*.backup-*
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Secrets — none committed today, but guarding against future drift
+.env
+.env.*
+*.secret
+secrets.json
+credentials.json
+
+# Logs
+*.log
+logs/
