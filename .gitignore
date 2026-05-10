@@ -47,3 +47,14 @@ credentials.json
 # Logs
 *.log
 logs/
+
+# Test infrastructure
+.pytest_cache/
+.coverage
+htmlcov/
+test_reports/latest/
+test_reports/history/*/pytest-report.html
+test_reports/history/*/coverage/
+test_reports/history/*/junit.xml
+test_reports/history/*/stdout.log
+test_reports/trends/
